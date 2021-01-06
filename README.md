@@ -9,7 +9,24 @@
 docker-compose up -d web
 or
 docker run -d --name arachni -p 9292:9292 ahannigan/docker-arachni bin/arachni_web -o 0.0.0.0
+
+Administrator account
+
+E-mail: admin@admin.admin
+Password: administrator
+
+
 ```
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 - Drop in to a bash shell in arachni folder
 ```bash
