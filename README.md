@@ -17,15 +17,16 @@ as root
 <br>
 
 ```
-docker run -d --name arachni -p 9292:9292 ahannigan/docker-arachni bin/arachni_web -o 0.0.0.0
+docker run -d -p 9292:9292 ahannigan/docker-arachni bin/arachni_web -o 0.0.0.0 
 echo '
 
 E-mail: admin@admin.admin
 Password: administrator
 
 '
-sleep 5
+sleep 2
 firefox 127.0.0.1:9292
+
 ```
 <br>
 <br>
